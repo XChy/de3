@@ -1,0 +1,7 @@
+[optimize]
+original = "-O3"
+mutant = "-O3"
+
+[mutate]
+type = 0
+max_passes = 15
