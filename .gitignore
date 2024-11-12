@@ -2,3 +2,9 @@ CMakeFiles
 build
 CMakeCache.txt
 cmake_install.cmake
+src/tools/deoptgen/CMakeFiles/deoptgen.dir
+.cmake/api/v1/reply
+src/tools/mo-diff/CMakeFiles/mo-diff.dir
+src/tools/mochecker/CMakeFiles/mochecker.dir
+src/tools/moclassify/CMakeFiles/moclassify.dir
+compile_commands.json
