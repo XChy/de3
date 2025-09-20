@@ -81,3 +81,13 @@ For normal C program `a.c`, you can run:
 ./scripts/c2llvm.sh a.c /path/to/seed
 ./build/deoptgen -pipeline-type=1 -m 15 /path/to/seed -o /path/to/mutant
 ```
+
+
+
+## USE de3 in docker
+Under src code directory of de3:
+docker build -t my_image .
+docker run -it -v /path/on/host:/path/in/container my_image /bin/bash
+
+Then use de3 in docker:
+python3 ./scripts/run.py -c ./config/O3_O3_deoptimize.toml -o /path/to/output /path/to/input
