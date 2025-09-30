@@ -14,7 +14,7 @@ https://github.com/llvm/llvm-project/issues/72293
 
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=113487
 
-https://gcc.gnu.org/bugzilla/show_bug.cgi?id=115034
+https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123286
 
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=115035
 
@@ -68,7 +68,7 @@ https://github.com/llvm/llvm-project/issues/79266
 
 https://github.com/llvm/llvm-project/issues/89187
 
-https://gcc.gnu.org/bugzilla/show_bug.cgi?id=114725
+https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123023
 
 https://github.com/llvm/llvm-project/issues/79696
 
@@ -142,13 +142,13 @@ https://github.com/llvm/llvm-project/issues/64238
 
 https://github.com/llvm/llvm-project/issues/86176
 
-https://github.com/llvm/llvm-project/issues/76623
+https://github.com/llvm/llvm-project/issues/158741
 
 https://github.com/llvm/llvm-project/pull/86312
 
 https://github.com/llvm/llvm-project/issues/86180
 
-https://github.com/llvm/llvm-project/issues/72378
+https://github.com/llvm/llvm-project/issues/165987
 
 https://github.com/llvm/llvm-project/issues/86920
 
@@ -168,11 +168,11 @@ https://github.com/llvm/llvm-project/issues/88345
 
 https://github.com/llvm/llvm-project/issues/88632
 
-https://github.com/llvm/llvm-project/issues/76128
+https://github.com/llvm/llvm-project/issues/165986
 
 https://github.com/llvm/llvm-project/pull/157865
 
-https://gcc.gnu.org/bugzilla/show_bug.cgi?id=112900
+https://gcc.gnu.org/bugzilla/show_bug.cgi?id=122715
 
 https://github.com/llvm/llvm-project/issues/91780
 
@@ -182,6 +182,6 @@ https://github.com/llvm/llvm-project/issues/107228
 
 https://gcc.gnu.org/bugzilla/show_bug.cgi?id=115034
 
-https://github.com/llvm/llvm-project/issues/79266
+https://github.com/llvm/llvm-project/issues/159552
 
 https://github.com/llvm/llvm-project/issues/88850
