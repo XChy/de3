@@ -82,6 +82,31 @@ For normal C program `a.c`, you can run:
 ./build/deoptgen -pipeline-type=1 -m 15 /path/to/seed -o /path/to/mutant
 ```
 
+### Result directory structure
+```
+  |-- crashed                   # Testcases causing compiler/mutator crash
+  |-- missed-opt
+  |   |-- 0                     # Directories numbered with specific testcase
+  |   |-- 1
+  |   |-- 2
+  |   |-- ...
+```
+
+In every numbered directory, its structure is like:
+
+```
+0-- |
+    |-- original.ll                   # Original LLVM-IR
+    |-- mutated.ll                    # Mutated LLVM-IR
+    |-- original_opt.ll               # Optimized original LLVM-IR
+    |-- mutated_opt.ll                # Optimized mutated LLVM-IR
+    |-- better                        # IR difference between corresponding functions
+    |   | -- 13                       # After reduction, "reduced" directory contains reduced difference
+    |   | -- 42
+    |   | -- ...
+    |-- some configuration files
+```
+
 
 
 ## USE de3 in docker
